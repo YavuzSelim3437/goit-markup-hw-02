@@ -40,6 +40,15 @@ body {
 .nav_adress{
   font-style: normal;
 }
+.nav-link_address{
+  color: #434455;
+}
+.nav-link_address:hover{
+  color: #404bbf;
+}
+.nav-link_address:focus{
+  color: #404bbf;
+}
 .sample_class-name {
   background-color: #2e2f42;
 }

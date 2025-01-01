@@ -79,36 +79,35 @@ body {
   text-decoration: underline var(--ocean);
 }
 
-.heading-main {
-  color: white;
-  font-weight: 700;
+.sample_head-first{
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
   text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
-.cover {
-  background-color: var(--navy-blue);
+.sample_class-name {
+  background-color: #2e2f42;
 }
 
 .button-cover {
   background-color: var(--iris);
   color: #ffffff;
 }
-button {
-  cursor: pointer;
-  background-color: var(--iris);
+.sample_class-button {
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+  cursor: pointer;
 }
-button:hover,
-button:focus {
-  background-color: var(--ocean);
+.sample_class-button:hover,
+.sample_class-button:focus {
+  background-color: #404bbf;
 }
 
 .team-section {

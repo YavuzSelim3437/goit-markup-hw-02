@@ -1,13 +1,22 @@
 body {
   background-color: #ffffff;
-  color: var(--slate);
+  color: #434455;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.header_logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--iris);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 .sample_head-first{
   font-size: 56px;
   line-height: 1.07;

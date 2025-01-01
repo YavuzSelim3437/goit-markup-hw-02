@@ -1,3 +1,13 @@
+body {
+  background-color: #ffffff;
+  color: var(--slate);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .sample_head-first{
   font-size: 56px;
   line-height: 1.07;

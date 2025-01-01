@@ -29,9 +29,9 @@ body {
   color: var(--slate);
 }
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway",sans-serif;
   font-weight: 700;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -63,6 +63,9 @@ body {
 .team-list{
   list-style: none;
 }
+.nav-adress{
+  font-style: normal;
+}
 /* hovering and focusing states  */
 .nav-link:hover,
 .nav-link:focus {
@@ -77,22 +80,35 @@ body {
 }
 
 .heading-main {
-  font-family: Roboto;
-  font-size: 56px;
+  color: white;
   font-weight: 700;
+  font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: white;
 }
 
-.hero-section {
+.cover {
   background-color: var(--navy-blue);
 }
 
-.hero-button {
+.button-cover {
   background-color: var(--iris);
   color: #ffffff;
+}
+button {
+  cursor: pointer;
+  background-color: var(--iris);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+button:hover,
+button:focus {
+  background-color: var(--ocean);
 }
 
 .team-section {

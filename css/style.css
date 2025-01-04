@@ -8,50 +8,39 @@
   --cloud: #f4f4fd;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 html,
 body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: 24px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
+  background-color: #ffffff;
   color: var(--slate);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.nav-link_address {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: 24px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--slate);
+/* HEADER SECTION */
+.header {
+  color: white;
+  border: 1px solid #e7e9fc;
 }
+
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
+  color: var(--iris);
   font-weight: 700;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-decoration: none;
   text-transform: uppercase;
-  color: var(--iris);
 }
 
 .header-logo-span {
   color: var(--navy-blue);
 }
+
+/* NAVBAR */
 .nav-link {
   color: var(--navy-blue);
   text-decoration: none;
@@ -60,6 +49,9 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 /* hovering and focusing states  */
 .nav-link:hover,
@@ -73,31 +65,102 @@ body {
 .nav-link:active {
   text-decoration: underline var(--ocean);
 }
-
-.heading-main {
-  font-family: Roboto;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: white;
+#team .heading_3:hover,
+#team .heading_3:focus {
+  color: var(--ocean);
 }
 
-.hero-section {
-  background-color: var(--navy-blue);
-}
-
-.hero-button {
+button {
+  cursor: pointer;
   background-color: var(--iris);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
 }
 
+button:hover,
+button:focus {
+  background-color: var(--ocean);
+}
+/* if we are not gonna use it why we define class names i dont get it dude */
+
+.nav-link_address {
+  color: var(--slate);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/* heading_1 STYLES */
+.heading_1 {
+  color: white;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* h2 styles */
+/* .heading_2 {
+    color: var(--navy-blue);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+} */
+
+.heading_2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-card {
+  background-color: #ffffff;
+}
+
+/* h3styles */
+/* .heading_3 {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+} */
+
+.heading_3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+#cover {
+  background-color: var(--navy-blue);
+}
 .team-section {
-  background-color: var(--cloud);
+  background-color: #f4f4fd;
 }
 .portfolio-section {
   border: 1px solid var(--corn_flower);
+}
+/* footer section */
+
+footer {
+  background-color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 .footer-logo {
@@ -114,8 +177,25 @@ body {
 .footer-logo-span {
   color: #f4f4fd;
 }
-
-footer {
-  background-color: var(--navy-blue);
+.footer_description {
+  font-size: 16px;
+  /* Aligning with the general font-size styling */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
+  /* Updated to the correct color code for the description */
+}
+
+.team-text {
+  font-size: 16px;
+}
+
+.features-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }

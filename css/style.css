@@ -98,7 +98,7 @@ button:focus {
 }
 
 /* heading_1 STYLES */
-.effective-solutions_123 {
+.heading_1 {
   color: white;
   font-weight: 700;
   font-size: 56px;
@@ -139,7 +139,7 @@ button:focus {
     letter-spacing: 0.02em;
 } */
 
-.strategy-item_abc {
+.heading_3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;

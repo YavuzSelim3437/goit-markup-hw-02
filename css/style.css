@@ -1,201 +1,195 @@
-:root {
-  --iris: #4d5ae5;
-  --navy-blue: #2e2f42;
-  --ocean: #404bbf;
-  --slate: #434455;
-  --light_slate: #8e8f99;
-  --corn_flower: #e7e9fc;
-  --cloud: #f4f4fd;
-}
-
-html,
 body {
+  color: #434455;
   background-color: #ffffff;
-  color: var(--slate);
-  text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
-/* HEADER SECTION */
-.header {
-  color: white;
-  border: 1px solid #e7e9fc;
-}
-
-.header-logo {
-  font-family: "Raleway", sans-serif;
-  color: var(--iris);
+.nav .logo-one {
+  text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-decoration: none;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
-
-.header-logo-span {
-  color: var(--navy-blue);
+.nav .logo-one > .studio {
+  color: #2e2f42;
 }
 
-/* NAVBAR */
-.nav-link {
-  color: var(--navy-blue);
+.nav .list-one .page {
   text-decoration: none;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
-/* hovering and focusing states  */
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--ocean);
-}
-.nav-link_address:hover,
-.nav-link_address:focus {
-  color: var(--ocean);
-}
-.nav-link:active {
-  text-decoration: underline var(--ocean);
-}
-#team .heading_3:hover,
-#team .heading_3:focus {
-  color: var(--ocean);
-}
-
-button {
-  cursor: pointer;
-  background-color: var(--iris);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-}
-
-button:hover,
-button:focus {
-  background-color: var(--ocean);
-}
-/* if we are not gonna use it why we define class names i dont get it dude */
-
-.nav-link_address {
-  color: var(--slate);
-  font-family: Roboto;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
+  font-weight: 500;
+  color: #2e2f42;
+}
+.address {
+  font-style: normal;
 }
 
-/* heading_1 STYLES */
-.heading_1 {
+.address li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.nav .page:hover {
+  color: #404bbf;
+}
+.nav .page:focus {
+  color: #404bbf;
+}
+.address a:hover {
+  color: #404bbf;
+}
+.address a:focus {
+  color: #404bbf;
+}
+
+.itemone {
+  background-color: #2e2f42;
+  font-family: "Roboto", Arial, sans-serif;
+  text-align: center;
+}
+.itemone h1 {
   color: white;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
-/* h2 styles */
-/* .heading_2 {
-    color: var(--navy-blue);
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-} */
-
-.heading_2 {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
+.itemone button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.itemone button:hover {
+  background-color: #404bbf;
+}
+.itemone button:focus {
+  background-color: #404bbf;
 }
 
-.team-card {
-  background-color: #ffffff;
+.itemtwo li {
+  list-style: none;
 }
-
-/* h3styles */
-/* .heading_3 {
-    color: var(--navy-blue);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-} */
-
-.heading_3 {
+.itemtwo li > .h-first {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-#cover {
-  background-color: var(--navy-blue);
+.itemtwo li > .p-first {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-.team-section {
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.itemthree {
   background-color: #f4f4fd;
 }
-.portfolio-section {
-  border: 1px solid var(--corn_flower);
+.itemthree h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
-/* footer section */
-
-footer {
-  background-color: var(--navy-blue);
+.itemthree li {
+  background-color: #ffffff;
+  font-size: 20px;
+  line-height: 24px;
+}
+.itemthree li h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.itemthree li p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
-.footer-logo {
+.itemfour {
+  background-color: #ffffff;
+}
+.itemfour h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.itemfour li h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #2e2f42;
+}
+.itemfourli p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+
+.footer > .logo-end {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
-  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
+  font-weight: 700;
+  margin-left: 100px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
-
-.footer-logo-span {
+.footer a > .studio {
   color: #f4f4fd;
 }
-.footer_description {
+.footer p {
   font-size: 16px;
-  /* Aligning with the general font-size styling */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  /* Updated to the correct color code for the description */
-}
-
-.team-text {
-  font-size: 16px;
-}
-
-.features-text {
-  font-size: 16px;
-  letter-spacing: 0.02em;
-}
-
-.portfolio-text {
-  font-size: 16px;
-  letter-spacing: 0.02em;
 }
